@@ -2,10 +2,10 @@ import React from 'react'
 
 import { ButtonContainer, ButtonTitle } from './styles'
 
-const Button = ({ typeColor, content, path }) => {
+const Button = ({ typeColor, content, path, type }) => {
     return (
         <ButtonContainer
-        typeColor={typeColor}
+            typeColor={typeColor}
         >
             <ButtonTitle to={path}>
                 <b>{content}</b>

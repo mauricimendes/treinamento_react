@@ -69,6 +69,8 @@ export const History = styled.div`
         border-radius: 60px;
         padding: 40px;
         font-family: 'Roboto', sans-serif;
+
+        box-shadow: 0px 0px 30px #000000aa;
     }
 `
 
@@ -78,4 +80,16 @@ export const ContainerButton = styled.div`
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
+    button {
+        cursor: pointer;
+        height: 60px;
+        width: 300px;
+        border: 0px;
+        border-radius: 30px;
+        background-color: #4EDB7E;
+        color: #FFF;
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+    }
 `
