@@ -48,13 +48,16 @@ const ListHistories = () => {
                     <Button key={userHistory.id}>
                         <div>
                             <Options>
-                                <a href='http://www.google.com.br'>
+                                <a 
+                                    href={`https://wa.me/55${userHistory.phone}`}
+                                    target='_blank'
+                                >
                                     <IoLogoWhatsapp
                                         color='#FFF'
                                         size={32}
                                     />
                                 </a>
-                                <a href='http://www.google.com.br'>
+                                <a href={`mailto:${userHistory.email}`}>
                                     <IoIosMail
                                         color='#FFF'
                                         size={32}
