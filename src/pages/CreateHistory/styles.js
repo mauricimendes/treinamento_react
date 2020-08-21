@@ -79,3 +79,21 @@ export const ContainerButton = styled.div`
     justify-content: center;
     align-items: center;
 `
+
+export const Button = styled.button`
+    width: 300px;
+    height: 60px;
+    border: 0;
+    border-radius: 30px;
+    background-color: #4EDB7E;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    p {
+        color: #FFF;
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        border: 0;
+    }
+`
